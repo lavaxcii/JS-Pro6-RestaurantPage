@@ -1,1 +1,6 @@
-# JS-Pro6-RestaurantPage
+JavaScript Project (w. webpack).
+
+Restaurant page. Alpha build.
+
+Update.
+//
