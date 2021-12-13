@@ -1,0 +1,27 @@
+{
+  "name": "js-pro6-restaurantpage",
+  "version": "1.0.0",
+  "description": "JavaScript Project (w. webpack).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lavaxcii/JS-Pro6-RestaurantPage.git"
+  },
+  "author": "lavaxcii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lavaxcii/JS-Pro6-RestaurantPage/issues"
+  },
+  "homepage": "https://github.com/lavaxcii/JS-Pro6-RestaurantPage#readme",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1"
+  }
+}
