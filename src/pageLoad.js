@@ -19,6 +19,7 @@ const generatePageContent = () => {
     const bDiv = document.createElement('button');
     const div = document.createElement('div');
     div.classList.add(`tabDiv${i}`);
+    bDiv.classList.add(`button${i}`)
     if (div.classList.contains('tabDiv1')) {
       tabWrap.appendChild(div).appendChild(bDiv).innerText = `CONTACT`;
     } else {
@@ -29,7 +30,7 @@ const generatePageContent = () => {
   tabContentWrap.classList.add('tabContentWrap');
   const tabContent = document.createElement('div');
   tabContent.classList.add('tabContent');
-  content.appendChild(tabContentWrap).appendChild(tabContent);
+  content.appendChild(tabContentWrap).appendChild(tabContent).innerText = 'Choose either contact or menu tab';
 
   content.appendChild(footer);
 
