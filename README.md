@@ -1,6 +1,8 @@
 JavaScript Project (w. webpack).
 
-Restaurant page. Alpha build.
+Restaurant page. Final functional build.
 
 Update.
 //
+
+Live: https://lavaxcii.github.io/JS-Pro6-RestaurantPage/
